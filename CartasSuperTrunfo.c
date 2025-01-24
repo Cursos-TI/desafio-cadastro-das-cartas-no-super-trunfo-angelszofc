@@ -8,7 +8,7 @@
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
-    /*Declaração de Variaveis*/
+    /*Declaração de Variaveis em formato de Array para gravar varios valores*/
     char *cod_carta[3][3] = {};
     char *estado[2][3] = {};    
     char *nome_cidade[20][3] = {};
@@ -123,8 +123,7 @@ int main() {
     printf("Area em M2: %f\n",aream2[3]);
     printf("PIB: %f\n\n\n\n",pib[3]);
 
-    printf("Cadastro Finalizado!\nPressione Enter para ver os dados das 4 cartas...\n");
-    //getch();
+    printf("Cadastro Finalizado!\n");
 
     /*Imprimindo dados da PRIMEIRA carta*/
     printf("Dados da Primeira carta:\n");
@@ -135,6 +134,7 @@ int main() {
     printf("Numero de Pontos Turisticos: %d\n",num_ponto_tur[0]);
     printf("Area em M2: %f\n",aream2[0]);
     printf("PIB: %f\n\n",pib[0]);    
+
     /*Imprimindo dados da SEGUNDA carta*/
     printf("Dados da Segunda carta:\n");
     printf("Codigo da Carta: %s\n",cod_carta[1]);
@@ -144,6 +144,7 @@ int main() {
     printf("Numero de Pontos Turisticos: %d\n",num_ponto_tur[1]);
     printf("Area em M2: %f\n",aream2[1]);
     printf("PIB: %f\n\n",pib[1]);
+
     /*Imprimindo dados da TERCEIRA carta*/
     printf("Dados da Terceira carta:\n");
     printf("Codigo da Carta: %s\n",cod_carta[2]);
@@ -153,6 +154,7 @@ int main() {
     printf("Numero de Pontos Turisticos: %d\n",num_ponto_tur[2]);
     printf("Area em M2: %f\n",aream2[2]);
     printf("PIB: %f\n\n",pib[2]);
+
     /*Imprimindo dados da QUARTA carta*/
     printf("Dados da Quarta carta:\n");
     printf("Codigo da Carta: %s\n",cod_carta[3]);
@@ -163,8 +165,6 @@ int main() {
     printf("Area em M2: %f\n",aream2[3]);
     printf("PIB: %f\n\n",pib[3]);
 
-    printf("Pressione Enter para sair...\n");
-    //getch();  
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
